@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Eden Satellite and Laboratory</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body class="container">
+<body class="container text-success bg-dark">
     <nav>
         <ul class="nav nav-tabs nav-fill">
             <li class="nav-item">
@@ -33,7 +32,7 @@
         parts of your personality given form to help you do things you normally couldn't do. They are typically found in
         the Undertow in a state we refer to as <em>"asleep"</em>, and can be <em>"awoken"</em> through sleeping or
         meditation. We have looked into other methods of waking Eidolons, but so far we haven't had any luck.</p>
-    <p>Eidolons users are granted many superhuman capabilities including superior strength, reflexes, and durability as
+    <p>Eidolon users are granted many superhuman capabilities including superior strength, reflexes, and durability as
         well as the ability to heal wounds faster and easier, ontop of anything unique to the Eidolon itself. Eidolons
         depend on the individual's personality and needs in the moment of attaining an Eidolon, though the through-line
         isn't always obvious as a result of being non-literal, based on the subconcious. We group Eidolons into
@@ -45,48 +44,203 @@
     <div class="row">
         <div class="col-4">
             <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action" id="list-alchemist-list" data-bs-toggle="list"
+                <a class="list-group-item list-group-item-action active" id="list-alchemist-list" data-bs-toggle="list"
                     href="#list-alchemist" role="tab" aria-controls="list-alchemist">Alchemist</a>
-                    <a class="list-group-item list-group-item-action" id="list-conductor-list" data-bs-toggle="list"
+                <a class="list-group-item list-group-item-action" id="list-conductor-list" data-bs-toggle="list"
                     href="#list-conductor" role="tab" aria-controls="list-conductor">Conductor</a>
-                    <a class="list-group-item list-group-item-action" id="list-infiltrator-list" data-bs-toggle="list"
+                <a class="list-group-item list-group-item-action" id="list-infiltrator-list" data-bs-toggle="list"
                     href="#list-infiltrator" role="tab" aria-controls="list-infiltrator">Infiltrator</a>
                 <a class="list-group-item list-group-item-action" id="list-navigator-list" data-bs-toggle="list"
                     href="#list-navigator" role="tab" aria-controls="list-navigator">Navigator</a>
-                <a class="list-group-item list-group-item-action active" id="list-vanguard-list" data-bs-toggle="list"
+                <a class="list-group-item list-group-item-action" id="list-vanguard-list" data-bs-toggle="list"
                     href="#list-vanguard" role="tab" aria-controls="list-vanguard">Vanguard</a>
                 <a class="list-group-item list-group-item-action" id="list-virtuoso-list" data-bs-toggle="list"
                     href="#list-virtuoso" role="tab" aria-controls="list-virtuoso">Virtuoso</a>
-                    <a class="list-group-item list-group-item-action" id="list-beast-list" data-bs-toggle="list"
+                <a class="list-group-item list-group-item-action" id="list-beast-list" data-bs-toggle="list"
                     href="#list-beast" role="tab" aria-controls="list-beast">"Beasts"</a>
             </div>
         </div>
         <div class="col-8">
             <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="list-alchemist" role="tabpanel" aria-labelledby="list-alchemist-list">
-                    <p><em>Alchemist Eidolons</em> have the unique ability to transform things with a simple touch - what defines a "touch" can be debated, as even metaphysical concepts and non-physical ideas like emotions fall under the effects of this power, the scope of these abilities cannot be understated. Users of Alchemist Eidolons tend to be very creative, goal-driven individuals, people who want to change the world in some way - hopefully for the better. From our research, we've found that their effective range tends to be 3 meters, and anything they transform can be reverted back. They also seem capable of subconciously affecting fate, as occassionally things just go exactly as they expect for better or worse. At their best, when they find the perfect answer to a problem and act on it immediately, even <em>they</em> seem to change to better fit the situation! But at their worst, it's almost like they crumple under the weight of the world...</p>
-                    <p>Dr. Aoki's Eidolon <em>[Rust]</em> is an Alchemist Eidolon resembling an rusty, humanoid automaton that corrodes anything it touches. As concerning as this may, we try and look at the brightside of things around here at the Eden Satellite and Laboratory - making things weaker and easier to break can be a useful asset, if she had developed this Eidolon when she was younger she likely could've gone into demolition.</p>
-                    <p>One of our anonymous test subjects got an Alchemist Eidolon resembling a robotic clown, <em>[Clown]</em>, which "turned laughter into fear". No further comments.</p>
-                    <p>We believe Dr. Kaneko's Eidolon <em>[Rewound]</em> to be an Alchemist Eidolon resembling a robotic avian with limited time manipulation abilities, transforming the state of things to a previous state. It doesn't seem to require touch, so it could be warping reality around itself like a Conductor, but the fact he actively has to use his ability rather than it just... passively doing so is the main reason we believe it to be Alchemist, ontop of him not exactly fitting the personality of a Conductor Eidolon user. More testing likely necessary.</p>
-                    <p>We have no reason to believe all Alchemist Eidolons appear robotic - this is purely a coincedence.</p>
+                <div class="tab-pane fade show active" id="list-alchemist" role="tabpanel"
+                    aria-labelledby="list-alchemist-list">
+                    <p><em>Alchemist Eidolons</em> have the unique ability to transform things with a simple touch -
+                        what defines a "touch" can be debated, as even metaphysical concepts and non-physical ideas like
+                        emotions fall under the effects of this power, the scope of these abilities cannot be
+                        understated. Users of Alchemist Eidolons tend to be very creative, goal-driven individuals,
+                        people who want to change the world in some way - hopefully for the better. From our research,
+                        we've found that their effective range tends to be 3 meters, and anything they transform can be
+                        reverted back. They also seem capable of subconciously affecting fate, as occassionally things
+                        just go exactly as they expect for better or worse. At their best, when they find the perfect
+                        answer to a problem and act on it immediately, even <em>they</em> seem to change to better fit
+                        the situation! But at their worst, it's almost like they crumple under the weight of the
+                        world...</p>
+                    <p>Dr. Aoki's Eidolon <em>[Rust]</em> is an Alchemist Eidolon resembling a rusty, humanoid
+                        automaton that corrodes anything it touches. As concerning as this may seem, we try and look at
+                        the
+                        brightside of things around here at the Eden Satellite and Laboratory - making things weaker and
+                        easier to break can be a useful asset, if she had developed this Eidolon when she was younger
+                        she likely could've gone into demolition.</p>
+                    <p>One of our anonymous test subjects got an Alchemist Eidolon resembling a robotic clown,
+                        <em>[Clown]</em>, which "turned laughter into fear". No further comments.
+                    </p>
+                    <p>We believe Dr. Kaneko's Eidolon <em>[Rewound]</em> to be an Alchemist Eidolon resembling a
+                        robotic avian with limited time manipulation abilities, transforming the state of things to a
+                        previous state. It doesn't seem to require touch, so it could be warping reality around itself
+                        like a Conductor, but the fact he actively has to use his ability rather than it just...
+                        passively doing so is the main reason we believe it to be Alchemist, ontop of him not exactly
+                        fitting the personality of a Conductor Eidolon user. More testing likely necessary.</p>
+                    <p>We have no reason to believe all Alchemist Eidolons appear robotic - this is purely a
+                        coincedence.</p>
                 </div>
                 <div class="tab-pane fade" id="list-conductor" role="tabpanel" aria-labelledby="list-conductor-list">
-                    <p><em>Conductor Eidolons</em> passively "warp" reality within a radius of approximately 4.6 meters around the Eidolon, the user, or anyone the Eidolon is close to. Users of Conductor Eidolons tend to be very witty, charismatic individuals, or at the very least show positive traits to those they consider close in their social circles - those of which can choose to exclude themselves from the Eidolon's reality altering effects if the user allows them too. At their best, they seem to be born leaders - they say the word, and everyone will act to do it, even if their unique power doesn't specifically involve giving commands. At their worst, they can hardly speak, and when they do they either say the worst things or the worst things happen, even if it seems impossible or unreasonable by any normal metric.</p>
-                    <p>Dr. Maekawa's Eidolon <em>[Kaleidoscope Haze]</em> is a Conductor Eidolon resembling a pink, plush elephant toy, and it warps reality by changing the visuals of the area within its range based on the personality of those that inhabit it. Children and some young adults, like Dr. Maekawa himself, in the Eidolon's range make things brighter and highly saturated with a cutesy anime style. When Dr. Kaneko is in its range, the area around him becomes black and white like films from the early 20th century. When Dr. Rikimaru is in its range, the area around him becomes darker and resembles early 21st century computer animated graphics. Multiple people being in the bubble usually fuses their "unique perspectives" together.</p>
-                    <p>One of our anonymous test subjects got a Conductor Eidolon resembling a mechanical spider with a baby doll's head, <em>[Broken Toy Mania]</em>, which brings toys within its range to life if they are "broken" in any way. Broken can mean anywhere from scratched slightly or having a malfunctioning voice box to being ripped apart or having shattered plastic parts. As long as the toy isn't completely and utterly destroyed beyond recognizability, it will start trying to move of its own accord, and some even have the ability to speak. They usually do not have positive things to say.</p>
+                    <p><em>Conductor Eidolons</em> passively "warp" reality within a radius of approximately 4.6 meters
+                        around the Eidolon, the user, or anyone the Eidolon is close to. Users of Conductor Eidolons
+                        tend to be very witty, charismatic individuals, or at the very least show positive traits to
+                        those they consider close in their social circles - those of which can choose to exclude
+                        themselves from the Eidolon's reality altering effects if the user allows them to. At their
+                        best, they seem to be born leaders - they say the word, and everyone will act to do it, even if
+                        their unique power doesn't specifically involve giving commands. At their worst, they can hardly
+                        speak, and when they do they either say the worst things or the worst things happen, even if it
+                        seems impossible or unreasonable by any normal metric.</p>
+                    <p>Dr. Maekawa's Eidolon <em>[Kaleidoscope Haze]</em> is a Conductor Eidolon resembling a pink,
+                        plush elephant toy, and it warps reality by changing the visuals of the area within its range
+                        based on the personality of those that inhabit it. Children and some young adults, like Dr.
+                        Maekawa himself, in the Eidolon's range make things brighter and highly saturated with a cutesy
+                        anime style. When Dr. Kaneko is in its range, the area around him becomes black and white like
+                        films from the early 20th century. When Dr. Rikimaru is in its range, the area around him
+                        becomes darker and resembles early 21st century computer animated graphics. Multiple people
+                        being in the bubble usually fuses their "unique perspectives" together.</p>
+                    <p>One of our anonymous test subjects got a Conductor Eidolon resembling a mechanical spider with a
+                        baby doll's head, <em>[Broken Toy Mania]</em>, which brings toys within its range to life if
+                        they are "broken" in any way. Broken can mean anywhere from scratched slightly or having a
+                        malfunctioning voice box to being ripped apart or having shattered plastic parts. As long as the
+                        toy isn't completely and utterly destroyed beyond recognizability, it will start trying to move
+                        of its own accord, and some even have the ability to speak. They usually do not have positive
+                        things to say.</p>
                 </div>
-                <div class="tab-pane fade" id="list-infiltrator" role="tabpanel" aria-labelledby="list-infiltrator-list">
-                    <p><em>Infiltrator Eidolons</em> have the ability to hide in some fashion, with a secondary ability it can use while it's hidden. Users of Infiltrator Eidolons tend to be introverted or shy individuals - they can be difficult to get a read on because they purposely hide things about themselves. Some may believe an Eidolon like this is inherently malevolent or implies something negative about its user, but we here at the ESL see the <em>potential</em> in these Eidolons. Spies and soldiers aren't the only individuals who need to use stealth to get what they want, after all. Infiltrator Eidolons can only hide when they aren't being viewed under most normal circumstances, and can stay hidden for seemingly arbitrary amounts of time dependent on if people are looking for them and what they do while they're hidden. Users of Infiltrator Eidolons also tend to know how to pick locks or hack computers that they previously might not have had, though it's also just as likely that those with such skills are more likely to have Infiltrator Eidolons. At their best, they can be utterly undetectable until its too late, often giving them an advantage in whatever situation they're in. But when things go wrong for them, they're utterly helpless as their Eidolon can outright become unusable...</p>
-                    <p>Dr. Akemi's Eidolon <em>[Escape of Salmholfer the Witch]</em> resembles a woman in a black dress which can transform into an apple, which she can then throw. While her Eidolon is an apple, non-Eidolon users can see it. Dr. Akemi is the first of us to get an Eidolon - we don't know where she got it, just that it seems to be what inspired Dr. Rikimaru to propose Project Sleep to the officials funding the ESL. It's a simple Eidolon, but has proven useful - especially since it seems she can hide along her Eidolon in the apple and send the apple flying with her own will. Being able to become an object as small as an apple and still move swiftly means they can easily get into areas that normal humans cannot.</p>
-                    <p>One of our anonymous test subjects got an Infiltrator Eidolon, <em>[Cantarella]</em>, resembling a creature made out of flowers that rather than hiding instead makes people hallucinate, and while doing so it can also poison them. This poison enters the blood system through the skin and also seems to attack the brain through the nervous system, making it harder for the victim to shake the hallucination. The poison cannot be identified by our current technology.</p>
+                <div class="tab-pane fade" id="list-infiltrator" role="tabpanel"
+                    aria-labelledby="list-infiltrator-list">
+                    <p><em>Infiltrator Eidolons</em> have the ability to hide in some fashion with a secondary ability
+                        it can use while it's hidden, and have typically shown to have an effective range of
+                        approximately 15.2 meters. Users of Infiltrator Eidolons tend to be introverted or shy
+                        individuals - they can be difficult to get a read on because they purposely hide things about
+                        themselves. Some may believe an Eidolon like this is inherently malevolent or implies something
+                        negative about its user, but we here at the ESL see the <em>potential</em> in these Eidolons.
+                        Spies and soldiers aren't the only individuals who need to use stealth to get what they want,
+                        after all. Infiltrator Eidolons can only hide when they aren't being viewed under most normal
+                        circumstances, and can stay hidden for seemingly arbitrary amounts of time dependent on if
+                        people are looking for them and what they do while they're hidden. Users of Infiltrator Eidolons
+                        also tend to know how to pick locks or hack computers that they previously might not have had,
+                        though it's also just as likely that those with such skills are more likely to have Infiltrator
+                        Eidolons. At their best, they can be utterly undetectable until its too late, often giving them
+                        an advantage in whatever situation they're in. But when things go wrong for them, they're
+                        utterly helpless as their Eidolon can outright become unusable...</p>
+                    <p>Dr. Akemi's Eidolon <em>[Escape of Salmholfer the Witch]</em> resembles a woman in a black dress
+                        which can transform into an apple, which Dr. Akemi can then throw. While her Eidolon is an
+                        apple,
+                        non-Eidolon users can see it. Dr. Akemi is the first of us to get an Eidolon - we don't know
+                        where she got it, just that it seems to be what inspired Dr. Rikimaru to propose Project Sleep
+                        to the officials funding the ESL. It's a simple Eidolon, but has proven useful - especially
+                        since it seems she can hide alongside her Eidolon in the apple and send the apple flying with
+                        her
+                        own will. Being able to become an object as small as an apple and still move swiftly means she
+                        can easily get into areas that normal humans cannot.</p>
+                    <p>One of our anonymous test subjects got an Infiltrator Eidolon, <em>[Cantarella]</em>, resembling
+                        a creature made out of flowers that rather than hiding instead makes people hallucinate, and
+                        while doing so it can also poison them. This poison enters the blood system through the skin and
+                        also seems to attack the brain through the nervous system, making it harder for the victim to
+                        shake the hallucination. The poison cannot be identified by our current technology.</p>
                 </div>
-                <div class="tab-pane fade" id="list-navigator" role="tabpanel" aria-labelledby="list-navigator-list">Navigator
+                <div class="tab-pane fade" id="list-navigator" role="tabpanel" aria-labelledby="list-navigator-list">
+                    <p><em>Navigator Eidolons</em> have the simple but very useful ability to sense any specific things
+                        within its range of 7.6 meters. Users of Navigator Eidolons tend to be very organized,
+                        knowledgable individuals who are experts in their field. Much like Conductors, they tend toward
+                        leadership positions, but show very different leadership traits - they're not always as
+                        charismatic, but in the right career intelligence may be valued more(not to say that you can't
+                        be both charismatic <em>and</em> intelligent). Users of Navigator Eidolons seem to be ready for
+                        anything - similar to users of Alchemist Eidolons they have some kind of control over fate, but
+                        unlike the Alchemist it's a lot more direct, a bit more of a conscious effort, less "going with
+                        the flow" and more as if they have a plan for everything. At their best, they seem to know
+                        everything about the current situation and the best direction forward. At their worst, they can
+                        come off as stubborn, and that's likely to cost them greatly.</p>
+                    <p>Dr. Rikimaru's Eidolon <em>[Masked]</em> resembles a plain white mask that he wears, and with it
+                        he says he can see someone's "potential". He explains it with... very contradictory terms, it's
+                        almost like his Eidolon can do almost anything and everything, but from what I gather from his
+                        descriptions, when he sees through the eyeholes of the mask, he can see faint glimpses of what
+                        someone's Eidolon may look like if it's asleep as well as a glow around people. He hasn't
+                        explained what the glow means or how it applies to "potential", but he's said that Dr. Akemi's
+                        son Hoshiki glows very brightly when Dr. Rikimaru wears the mask. In spite of being the project
+                        head, he refuses to do more testing with his Eidolon...</p>
+                    <p>One of our anonymous test subjects got a Navigator Eidolon, <em>[Let's Be Honest]</em>, which
+                        resembles a young teenager girl who sensed when people were lying. A supernatural, perfect lie
+                        detector is <em>very</em> useful, but I'll have to admit the individual who owned this Eidolon
+                        was a strange one... He made a lot of the scientists uncomfortable, and not just because an
+                        annoying girl was calling them out on every lie they said casually even when not testing.</p>
                 </div>
-                <div class="tab-pane fade" id="list-vanguard" role="tabpanel" aria-labelledby="list-vanguard-list">Vanguard
+                <div class="tab-pane fade" id="list-vanguard" role="tabpanel" aria-labelledby="list-vanguard-list">
+                    <p><em>Vanguard Eidolons</em> are generally combat-focused, with high destructive potential to
+                        anything within 3 meters of the user in even the best of cases. Users of Vanguard Eidolons are
+                        determined, extroverted individuals who often wear their hearts on their sleeve and even if they
+                        aren't always the most charismatic or welcoming they can be quite friendly! They can be
+                        optimistic or stubborn, sometimes both, in the face of adversity - one common phrase we've heard
+                        consistently from Vanguard Eidolon users compared to other Eidolon users in our tests has been
+                        "I meant to do that"... and honestly, it's hard not to believe them sometimes. At their best,
+                        they can push through any obstacle with the right motivation. At their worst, their mistakes can
+                        be costly, and if their mistake is genuine they usually come out feeling weaker than ever.</p>
+                    <p>None of the scientists working on Project Sleep so far have developed Vanguard Eidolons, but one
+                        of our anonymous test subjects developed one, <em>[Monstrosity]</em>, which resembles a
+                        tyrannosaurus rex skull to some extent and has the ability to shoot high-energy lasers from its
+                        mouth.</p>
                 </div>
-                <div class="tab-pane fade" id="list-virtuoso" role="tabpanel" aria-labelledby="list-virtuoso-list">Virtuoso
+                <div class="tab-pane fade" id="list-virtuoso" role="tabpanel" aria-labelledby="list-virtuoso-list">
+                    <p><em>Virtuoso Eidolons</em> are unique in the fact that they tend to be physical objects imbued
+                        with psychic energy from the Undertow and directly tied to their users' souls. Their powers and
+                        forms are as varied as the individuals who awaken them, with the only traits that truly connect
+                        them all is the fact that they're physical rather than inherently spiritual or psychic in
+                        nature, and the user can call their Eidolon to them from any range under most circumstances
+                        almost as easily as any other Eidolon users can simply summon their Eidolon. Users of Virtuoso
+                        Eidolons are effectively the exact opposite of Alchemists, being very literaly-minded
+                        individuals, while being similar to Navigators in that they are experts in their chosen field.
+                        Unlike Navigators however, their skills tend to always directly map onto their Eidolon's powers
+                        and inversely they seem capable of using their Eidolon's powers for almost anything and
+                        everything as long as it is even vaguely related to something they are proficient in, whereas
+                        Navigators being knowledgable on a topic doesn't mean that what they sense relates to that topic
+                        in any way. At their best, their Eidolons can literally transform, becoming more versatile or
+                        stronger in some way to reflect its user's mastery in that moment. At their worst, it's almost
+                        like they forget they have an Eidolon at all - supernatural solutions to problems just fly over
+                        their heads sometimes.</p>
+                    <p>None of the scientists working on Project Sleep so far have developed Virtuoso Eidolons yet. For
+                        a while we thought Dr. Rikimaru's Eidolon might be a Virtuoso, but upon further testing it
+                        shares more traits with Navigator Eidolons and also can't be seen by non-Eidolon users - it's
+                        appearance as an simple object is misleading to many, but it indeed is not a "physical" one. His
+                        daughter, however, awakened a Virtuoso Eidolon sometime before Project Sleep officially started,
+                        a lariat she named <em>[Double Lariat]</em>. According to Dr. Rikimaru, she always seemed
+                        interested in old, American cowboy movies and her obsession with them fueled her in learning
+                        various skills related to cowboys, such as gun handling and animal handling. It's said that she
+                        learned how to make an actual lariat herself on her own, and with it she could grab a bottle
+                        thrown at her out of midair even before her Eidolon was touched by the Undertow. Now <em>[Double
+                            Lariat]</em> seems to stretch and grab whatever she wants it to, no matter the distance!</p>
                 </div>
-                <div class="tab-pane fade" id="list-beast" role="tabpanel" aria-labelledby="list-beast-list">Beast
+                <div class="tab-pane fade" id="list-beast" role="tabpanel" aria-labelledby="list-beast-list">
+                    <p>We were curious about the potential of animals awakening Eidolons - we weren't sure if it was
+                        possible, but with the proper precautions we figured it wouldn't hurt to try. Even after the
+                        test on our lab rats failed, Dr. Rikimaru insisted on it, swearing up and down he saw a dog glow
+                        brightly with his mask and wanted to see if it meant anything. Eventually, we got something. The
+                        dog he was so obsessed with had a litter of puppies - only one survived the process, a young,
+                        male shiba inu who we refer to as Sigma. Upon awakening its Eidolon, Sigma seemed capable of
+                        human communication, as if speaking psychically into our minds with perfect Japanese. The pup
+                        was understandably scared and confused, and its Eidolon, which it refers to as <em>[Mommy]</em>,
+                        is overly aggressive, being a much larger dog. From the little we could gather on Sigma and its
+                        Eidolon, it seems like its Eidolon responded to its lack of a mother after our experiments sadly
+                        resulted in her passing away shortly after she had her puppies. Understandable, but upsetting
+                        regardless...</p>
+                    <p>We asked Dr. Rikimaru to drop any further animal research after these harrowing experience, but
+                        there's been three instances of a dead cat found in the halls of Eden Labs - according to DNA
+                        tests, <em>they're all the exact same cat.</em> Dr. Rikimaru was confronted about this shortly
+                        after. We don't know the name of the cat's Eidolon, we haven't seen it in a while, nor have we
+                        heard the cat speak, but we refer to this incident as "The Faulty Feline Philosophy", believing
+                        the cat's Eidolon to be related to the old addage of cats having nine lives.</p>
                 </div>
             </div>
         </div>
@@ -116,5 +270,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
 
 </html>
