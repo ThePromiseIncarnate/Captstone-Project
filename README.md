@@ -17,7 +17,7 @@ This website is based on my Eidolon campaign "Eidoloid: Project Sleep", intended
 - [X] Work on HTML for Main
 - [X] Work on HTML for Introductions
 - [X] Work on HTML for Eidolons
-- [ ] Work on HTML for Undertow
+- [X] Work on HTML for Undertow
 - [X] Work on Bootstrap for all
 - [X] Work on CSS
 - [ ] Work on Javascript

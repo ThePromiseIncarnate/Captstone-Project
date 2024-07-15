@@ -1,5 +1,8 @@
-/* Needs Classes */
-h1, h5, nav, p, div {
+h1,
+h5,
+nav,
+p,
+div {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -12,8 +15,11 @@ h1, h5, nav, p, div {
     font-size: 14px;
 }
 
-#passwordButton {
-    font-size:14px;
+#passwordButton,
+#shuffleButton,
+#drawButton {
+    font-size: 14px;
+    margin: 11px;
 }
 
 footer {
