@@ -20,7 +20,7 @@ This website is based on my Eidolon campaign "Eidoloid: Project Sleep", intended
 - [X] Work on HTML for Undertow
 - [X] Work on Bootstrap for all
 - [X] Work on CSS
-- [ ] Work on Javascript
+- [X] Work on Javascript
 - [ ] Finalize, get everything looking right!
 
 ## Wireframe
