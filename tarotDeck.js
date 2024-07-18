@@ -2,29 +2,6 @@ let tarotDeck = ["The Fool", "The Magician", "The High Priestess", "The Empress"
 let discardPile = [];
 let currentDeckTop = "";
 
-// function tarotDeckShuffle() {
-//     console.log(`Deck Length: ${tarotDeck.length}`);
-//     console.log(`Deck: ${tarotDeck}`);
-//     console.log(`Discard Length: ${discardPile.length}`);
-//     console.log(`Discard: ${discardPile}`);
-//     discardPile.push(...tarotDeck);
-//     tarotDeck = [];
-//     while (discardPile.length > 0) {
-//         for (let n = 0; tarotDeck.length < 20; n++) {
-//             let randomCard = Math.floor(Math.random() * 21)
-//             console.log(`Random Card Number: ${randomCard}`);
-//             console.log(`Deck Length: ${tarotDeck.length}`);
-//             console.log(`Deck: ${tarotDeck}`);
-//             console.log(`Discard Length: ${discardPile.length}`);
-//             console.log(`Discard: ${discardPile}`);
-//             if (tarotDeck[randomCard] = "") {
-//                 tarotDeck[randomCard].push(discardPile[0]);
-//                 discardPile.shift();
-//             }
-//         }
-//     }
-// }
-
 function tarotDeckShuffle() {
     console.log(`Before`);
     console.log(`Tarot Deck: ${tarotDeck}`);
