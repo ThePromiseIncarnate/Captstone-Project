@@ -21,7 +21,7 @@ This website is based on my Eidolon campaign "Eidoloid: Project Sleep", intended
 - [X] Work on Bootstrap for all
 - [X] Work on CSS
 - [X] Work on Javascript
-- [ ] Finalize, get everything looking right!
+- [X] Finalize, get everything looking right!
 
 ## Wireframe
 

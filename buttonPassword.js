@@ -9,11 +9,9 @@ function passwordStorage() {
         passwordButton.classList.add("disabled");
         hiddenTitle.style.visibility = "visible";
         hiddenText.style.visibility = "visible";
-        return input;
     } else {
         hiddenTitle.style.visibility = "hidden";
         hiddenText.style.visibility = "hidden";
-        return input;
     }
 }
 

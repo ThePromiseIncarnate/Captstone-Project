@@ -17,7 +17,8 @@ div {
 
 #passwordButton,
 #shuffleButton,
-#drawButton {
+#drawButton,
+#chanceButton {
     font-size: 14px;
     margin: 11px;
 }

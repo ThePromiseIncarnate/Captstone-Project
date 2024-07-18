@@ -1,6 +1,7 @@
 let tarotDeck = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Justice", "The Hermit", "The Wheel of Fortune", "Strength", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgment", "The World"];
 let discardPile = [];
 let currentDeckTop = "";
+let cardPrompt = 0
 
 function tarotDeckShuffle() {
     console.log(`Before`);
@@ -50,5 +51,32 @@ function tarotDeckDraw() {
     }
 }
 
+// You may freely use this code in your projects with attribution
+
+// ****************************************************
+// This function creates a random whole number between
+// 0 and len. You can use this to select a random value
+// from an array.
+//
+// INPUT: the length of an array (max or high value)
+// OUTPUT: a whole number between 0 and len
+// ****************************************************
+function tarotIndex(len) {
+    len = prompt("How many cards ahead do you want to look?");
+    Number(len);
+    cardPrompt = len;
+    return cardPrompt
+}
+
+function userIndex() {
+    let userCard = tarotIndex(cardPrompt) - 1;
+    if (tarotDeck[userCard] === undefined) {
+        alert(`Not a card!`);
+    } else {
+        alert(tarotDeck[userCard]);
+    }
+}
+
 shuffleButton.onclick = tarotDeckShuffle;
 drawButton.onclick = tarotDeckDraw;
+chanceButton.onclick = userIndex
