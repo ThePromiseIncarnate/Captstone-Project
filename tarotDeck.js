@@ -64,9 +64,9 @@ function tarotDeckDraw() {
         discardPile.push(tarotDeck[0]);
         tarotDeck.shift();
         console.log(`Deck Length: ${tarotDeck.length}`);
-        console.log(`Deck: ${tarotDeck}`);
+        console.log(`Tarot Deck: ${tarotDeck}`);
         console.log(`Discard Length: ${discardPile.length}`);
-        console.log(`Discard: ${discardPile}`);
+        console.log(`Discard Pile: ${discardPile}`);
     } else {
         tarotDeckShuffle();
         tarotDeckDraw();
